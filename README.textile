@@ -8,13 +8,11 @@ To use, just load the script onto a server of your choice and add a bookmarklet 
 javascript:(function(){
 _amd=document.createElement('SCRIPT');
 _amd.type='text/javascript';
-_amd.src='http://davidwparker.com/js/anymetadata.bookmarklet.js';
+_amd.src='http://YOUR_URL_HERE/js/anymetadata.bookmarklet.js';
 document.getElementsByTagName('head')[0].appendChild(_amd);})();
 </code>
 
-or just use the bookmarklet that's on my server.
-
-<a href="javascript:(function(){_amd=document.createElement('SCRIPT');_amd.type='text/javascript';_amd.src='http://davidwparker.com/js/anymetadata.bookmarklet.js';document.getElementsByTagName('head')[0].appendChild(_amd);})();">Any Metadata</a>
+or just use the bookmarklet that's on my server (http://davidwparker.com/js/anymetadata.bookmarklet.js).
 
 There are some things which I would like to see changed/added:
 
