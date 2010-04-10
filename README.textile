@@ -2,10 +2,14 @@ h1. Any Metadata Bookmarklet
 
 The Any Metadata Bookmarklet is a bookmarklet which allows a person to save any metadata about a Domain that they would like (duh).  It uses html5 localStorage.
 
-To use, just load the script onto a server of your choice and add a bookmarklet with the following code:
+To use, just load the script onto a server of your choice and add a bookmarklet with the following code (line breaks added for readability, remove them):
 
 <code>
-javascript:(function(){_amd=document.createElement('SCRIPT');_amd.type='text/javascript';_amd.src='http://davidwparker.com/js/anymetadata.bookmarklet.js';document.getElementsByTagName('head')[0].appendChild(_amd);})();
+javascript:(function(){
+_amd=document.createElement('SCRIPT');
+_amd.type='text/javascript';
+_amd.src='http://davidwparker.com/js/anymetadata.bookmarklet.js';
+document.getElementsByTagName('head')[0].appendChild(_amd);})();
 </code>
 
 or just use the bookmarklet that's on my server.
